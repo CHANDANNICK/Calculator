@@ -1,0 +1,110 @@
+/* ! Html Page Color */
+
+html {
+    width: 100%;
+    background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    opacity: 0.95;
+}
+
+/* ! Flex Property */
+
+.flex{
+    display: flex;
+    display: inline-block;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* ! Format of calculator */
+
+.format{
+    height: 75%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* ! Title text and format */
+
+.name {
+    height: auto;
+    border: 4px solid rgb(243, 60, 60);
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* ! Display container */
+
+.display-container {
+    min-height: 7vh;
+
+    border: 4px solid white;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.8vh;
+    vertical-align: text-bottom;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* ! Display text  */
+
+#display-text {
+    margin: 0.5vw;
+    margin-top: 0.4vh;
+    margin-right: 2px;
+    font-size: 4.8vh;
+    text-align: right;
+    vertical-align: text-bottom;
+}
+ 
+/* ! Row Format */
+
+.row {
+    height: 8vh;
+    width: 100%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ! Button format */
+
+.button {
+    height: 85%;
+    width: 22%;
+    display: inline-block;
+    border: 4px solid white;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(141deg, #6d41e6 0%, #db1f77 51%, #7e969e 75%);
+}
+
+.zero-button {
+    height: 85%;
+    width: 47.5%;
+    display: inline-block;
+    border: 4px solid white;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
